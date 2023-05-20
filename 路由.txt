@@ -1,0 +1,48 @@
+webman默认路由规则是 http://127.0.0.1:8787/{控制器}/{动作}。
+
+默认控制器为app\controller\Index，默认动作为index。
+
+例如访问：
+
+http://127.0.0.1:8787 将默认访问app\controller\Index类的index方法
+http://127.0.0.1:8787/foo 将默认访问app\controller\Foo类的index方法
+http://127.0.0.1:8787/foo/test 将默认访问app\controller\Foo类的test方法
+
+
+路由种类：
+0.类路由Route::any('/testclass', app\controller\Index::class); **
+1.
+
+Route::any('/testclass', 'HomeController@test'); 方法路由**
+2.闭包路由**
+ 
+路由中间件 HomeController@test|Middleware|Middleware**
+ 
+自动路由**，fallback路由-, 分组路由**
+资源路由
+命名路由*
+
+
+更多参考 http://laravel.p2hp.com/lumendocs/8.x/routing
+https://hotexamples.com/examples/-/-/FastRoute%5CsimpleDispatcher/php-fastroute%5Csimpledispatcher-function-examples.html
+https://hotexamples.com/examples/fastroute/RouteCollector/-/php-routecollector-class-examples.html
+--------------
+路由参数 ：
+// 匹配 /user/123 /user/abc
+Route::any('/user/{id}', [app\controller\User:class, 'get']);
+
+
+// 匹配 /user/123, 不匹配 /user/abc
+Route::any('/user/{id:\d+}', function ($request, $id) {
+    return response($id);
+});
+
+// 匹配 /user/foobar, 不匹配 /user/foo/bar
+Route::any('/user/{name}', function ($request, $name) {
+   return response($name);
+});
+
+// 匹配 /user /user/123 和 /user/abc
+Route::any('/user[/{name}]', function ($request, $name = null) {
+   return response($name ?? 'tom');
+});

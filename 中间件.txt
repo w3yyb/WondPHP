@@ -1,0 +1,82 @@
+  
+middlewarePriority:{
+\Illuminate\Cookie\Middleware\EncryptCookies::class,
+        \Illuminate\Session\Middleware\StartSession::class,
+        \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+        \Illuminate\Contracts\Auth\Middleware\AuthenticatesRequests::class,
+        \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        \Illuminate\Session\Middleware\AuthenticateSession::class,
+        \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        \Illuminate\Auth\Middleware\Authorize::class,
+
+}
+array(7) {
+  [0]=>
+  string(34) "App\Http\Middleware\EncryptCookies"
+  [1]=>
+  string(55) "Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse"
+  [2]=>
+  string(42) "Illuminate\Session\Middleware\StartSession"
+  [3]=>
+  string(49) "Illuminate\View\Middleware\ShareErrorsFromSession"
+  [4]=>
+  string(35) "App\Http\Middleware\VerifyCsrfToken"
+  [5]=>
+  string(48) "Illuminate\Routing\Middleware\SubstituteBindings"
+  [6]=>
+  string(28) "App\Http\Middleware\CheckAge"
+
+
+
+array(8) {
+  [0]=>
+  string(29) "App\Http\Middleware\CheckAge2"
+  [1]=>
+  string(30) "App\Http\Middleware\TrustHosts"
+  [2]=>
+  string(32) "App\Http\Middleware\TrustProxies"
+  [3]=>
+  string(25) "Fruitcake\Cors\HandleCors"
+  [4]=>
+  string(52) "App\Http\Middleware\PreventRequestsDuringMaintenance"
+  [5]=>
+  string(54) "Illuminate\Foundation\Http\Middleware\ValidatePostSize"
+  [6]=>
+  string(31) "App\Http\Middleware\TrimStrings"
+  [7]=>
+  string(63) "Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull"
+}
+11111array(7) {
+  [0]=>
+  string(34) "App\Http\Middleware\EncryptCookies"
+  [1]=>
+  string(55) "Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse"
+  [2]=>
+  string(42) "Illuminate\Session\Middleware\StartSession"
+  [3]=>
+  string(49) "Illuminate\View\Middleware\ShareErrorsFromSession"
+  [4]=>
+  string(35) "App\Http\Middleware\VerifyCsrfToken"
+  [5]=>
+  string(48) "Illuminate\Routing\Middleware\SubstituteBindings"
+  [6]=>
+  string(28) "App\Http\Middleware\CheckAge"
+
+
+
+
+laravel 的aravel 的非全局 中间件是有顺序的 ：按以下顺序 
+
+protected $middlewarePriority = [
+        \Illuminate\Cookie\Middleware\EncryptCookies::class,
+        \Illuminate\Session\Middleware\StartSession::class,
+        \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+        \Illuminate\Contracts\Auth\Middleware\AuthenticatesRequests::class,
+        \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        \Illuminate\Session\Middleware\AuthenticateSession::class,
+        \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        \Illuminate\Auth\Middleware\Authorize::class,
+    ];
+
+
+

@@ -1,0 +1,107 @@
+[
+缓存
+数据缓存 
+浏览器缓存(http缓存)
+ ]
+
+可扩展性
+{
+可扩展性在AppServiceProvider或其它xxServiceProvider的register或boot方法中实现:ref:http://laravel.p2hp.com/docs/8.x/providers :https://learnku.com/articles/37780
+}
+ events修改!!!*-
+服务提供者???
+视图&模板引擎!!!*-   vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php
+验证器!!!
+分页!!!
+命令行!!!
+ 
+
+
+
+
+[!!!
+契约*-  
+门面facade*- 
+] 
+
+[!!!**
+资源控制器
+资源路由
+rest,
+]
+
+[!!
+自动验证和完成 https://github.com/jenstornell/TinyFilters  https://github.com/donvercety/php.class.MiniValidate   https://blog.csdn.net/hudeyong926/article/details/99540745  illuminate/validation
+权限管理，
+认证，
+]
+
+
+[
+主题
+安全性与XSS过滤
+Layout,
+widget,
+片段缓存，
+]
+
+http客户端*-
+命令行， https://learnku.com/articles/22667 *-
+驱动，
+ 
+
+https://github.com/spatie?language=&page=2&q=&sort=stargazers&type=
+
+写文档
+写测试代码？
+
+=============
+Lenix 11:01:23
+robot 缓存
+Lenix 11:04:07
+请求日志
+Lenix 12:42:12
+https://blog.csdn.net/raoxiaoya/article/details/103877111
+Lenix 12:45:14
+https://www.fujieace.com/laravel/middleware-api-log.html
+Lenix 12:46:46
+https://cloud.tencent.com/developer/article/1807058
+Lenix 13:16:52
+https://github.com/tobyzerner/json-api-php
+Lenix 13:30:22
+响应图像，响应视频。
+Lenix 16:44:34
+生成静态中间件，只对部分路由生成静态，  后台服务可定时删除静态文件。
+Lenix 16:57:39
+https://github.com/spatie/fork
+Lenix 17:02:32
+https://github.com/spatie/laravel-activitylog
+ 
+
+Lenix 2021-04-30 09:59:10
+https://github.com/spatie/laravel-http-logger
+Lenix 2021-04-30 10:09:28
+https://github.com/spatie/laravel-robots-middleware
+Lenix 2021-04-30 10:10:06
+https://github.com/spatie/laravel-directory-cleanup
+Lenix 2021-04-30 10:11:37
+https://github.com/spatie/laravel-export
+Lenix 2021-04-30 10:38:02
+https://github.com/spatie/robots-txt
+
+
+
+
+
+
+https://blog.p2hp.com/archives/5363
+
+
+
+
+
+
+
+
+
+

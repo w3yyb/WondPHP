@@ -1,0 +1,160 @@
+./vendor/fruitcake/laravel-cors/src/CorsServiceProvider.php:        $this->app->singleton(CorsService::class, function ($app) {
+./vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php:            $this->app->singleton(
+./vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php:        $this->app->singleton('redis', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php:        $this->app->singleton('files', function () {
+./vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php:        $this->app->singleton('filesystem.disk', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php:        $this->app->singleton('filesystem.cloud', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php:        $this->app->singleton('filesystem', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('migration.repository', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('migrator', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('migration.creator', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('command.migrate', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('command.migrate.fresh', function () {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('command.migrate.install', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('command.migrate.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('command.migrate.refresh', function () {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('command.migrate.reset', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('command.migrate.rollback', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php:        $this->app->singleton('command.migrate.status', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php:        $this->app->singleton('db.factory', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php:        $this->app->singleton('db', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php:        $this->app->singleton('db.transactions', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php:        $this->app->singleton(FakerGenerator::class, function ($app, $parameters) {
+./vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php:        $this->app->singleton(EntityResolver::class, function () {
+./vendor/laravel/framework/src/Illuminate/Hashing/HashServiceProvider.php:        $this->app->singleton('hash', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Hashing/HashServiceProvider.php:        $this->app->singleton('hash.driver', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordResetServiceProvider.php:        $this->app->singleton('auth.password', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php:        $this->app->singleton('auth', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php:        $this->app->singleton('auth.driver', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php:        $this->app->singleton(GateContract::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Contracts/Container/Container.php:    public function singleton($abstract, $concrete = null);
+./vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:        $this->app->singleton(Dispatcher::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:        $this->app->singleton(BatchRepository::class, DatabaseBatchRepository::class);
+./vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php:        $this->app->singleton(DatabaseBatchRepository::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php:        $this->app->singleton('view', function ($app) {
+./vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php:        $this->app->singleton('blade.compiler', function ($app) {
+./vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php:        $this->app->singleton('view.engine.resolver', function () {
+./vendor/laravel/framework/src/Illuminate/Notifications/NotificationServiceProvider.php:        $this->app->singleton(ChannelManager::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Cache/CacheServiceProvider.php:        $this->app->singleton('cache', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Cache/CacheServiceProvider.php:        $this->app->singleton('cache.store', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Cache/CacheServiceProvider.php:        $this->app->singleton('cache.psr6', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Cache/CacheServiceProvider.php:        $this->app->singleton('memcached.connector', function () {
+./vendor/laravel/framework/src/Illuminate/Cache/CacheServiceProvider.php:        $this->app->singleton(RateLimiter::class);
+./vendor/laravel/framework/src/Illuminate/Validation/ValidationServiceProvider.php:        $this->app->singleton('validator', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Validation/ValidationServiceProvider.php:        $this->app->singleton('validation.presence', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php:        $this->app->singleton('cookie', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:        $this->app->singleton(
+./vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php:        $this->app->singleton('router', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php:        $this->app->singleton('url', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php:        $this->app->singleton('redirect', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php:        $this->app->singleton(ResponseFactoryContract::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php:        $this->app->singleton(ControllerDispatcherContract::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php:        $this->app->singleton('queue', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php:        $this->app->singleton('queue.connection', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php:        $this->app->singleton('queue.worker', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php:        $this->app->singleton('queue.listener', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php:        $this->app->singleton('queue.failer', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Mail/MailServiceProvider.php:        $this->app->singleton('mail.manager', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Mail/MailServiceProvider.php:        $this->app->singleton(Markdown::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Encryption/EncryptionServiceProvider.php:        $this->app->singleton('encrypter', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastServiceProvider.php:        $this->app->singleton(BroadcastManager::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastServiceProvider.php:        $this->app->singleton(BroadcasterContract::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Events/EventServiceProvider.php:        $this->app->singleton('events', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Container/Container.php:    public function singleton($abstract, $concrete = null)
+./vendor/laravel/framework/src/Illuminate/Container/Container.php:            $this->singleton($abstract, $concrete);
+./vendor/laravel/framework/src/Illuminate/Translation/TranslationServiceProvider.php:        $this->app->singleton('translator', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Translation/TranslationServiceProvider.php:        $this->app->singleton('translation.loader', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ComposerServiceProvider.php:        $this->app->singleton('composer', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.cache.clear', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.cache.forget', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.cache.table', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.cast.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.channel.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.clear-compiled', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.auth.resets.clear', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.component.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.config.cache', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.config.clear', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.console.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.controller.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton(DbCommand::class);
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.db.wipe', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.event.generate', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.event.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.exception.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.factory.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.down', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.environment', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.event.cache', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.event.clear', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.event.list', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.job.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.key.generate', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.listener.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.mail.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.middleware.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.model.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.notification.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.notification.table', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.optimize', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.observer.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.optimize.clear', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.package.discover', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.policy.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.provider.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.failed', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.forget', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.flush', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.listen', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.restart', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.retry', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.retry-batch', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.work', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.clear', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.failed-table', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.table', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.queue.batches-table', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.request.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.resource.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.rule.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.seeder.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.session.table', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.storage.link', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.route.cache', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.route.clear', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.route.list', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.schema.dump', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.seed', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton(ScheduleFinishCommand::class);
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton(ScheduleListCommand::class);
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton(ScheduleRunCommand::class);
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton(ScheduleTestCommand::class);
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton(ScheduleWorkCommand::class);
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.serve', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.stub.publish', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.test.make', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.up', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.vendor.publish', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.view.cache', function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:        $this->app->singleton('command.view.clear', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Foundation/Application.php:        $this->singleton(Mix::class);
+./vendor/laravel/framework/src/Illuminate/Foundation/Application.php:        $this->singleton(PackageManifest::class, function () {
+./vendor/laravel/framework/src/Illuminate/Foundation/Application.php:                $this->singleton($key, $value);
+./vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:        $this->app->singleton(Schedule::class, function ($app) {
+./vendor/laravel/framework/src/Illuminate/Log/LogServiceProvider.php:        $this->app->singleton('log', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Session/SessionServiceProvider.php:        $this->app->singleton(StartSession::class, function () {
+./vendor/laravel/framework/src/Illuminate/Session/SessionServiceProvider.php:        $this->app->singleton('session', function ($app) {
+./vendor/laravel/framework/src/Illuminate/Session/SessionServiceProvider.php:        $this->app->singleton('session.store', function ($app) {
+./vendor/laravel/tinker/src/TinkerServiceProvider.php:        $this->app->singleton('command.tinker', function () {
+./vendor/facade/ignition/src/DumpRecorder/DumpRecorder.php:        $this->app->singleton(MultiDumpHandler::class, function () use ($multiDumpHandler) {
+./vendor/facade/ignition/src/IgnitionServiceProvider.php:        $this->app->singleton(SolutionProviderRepositoryContract::class, function () {
+./vendor/facade/ignition/src/IgnitionServiceProvider.php:        $this->app->singleton(IgnitionConfig::class, function () {
+./vendor/facade/ignition/src/IgnitionServiceProvider.php:        $this->app->singleton('flare.http', function () {
+./vendor/facade/ignition/src/IgnitionServiceProvider.php:        $this->app->singleton(Flare::class, function () {
+./vendor/facade/ignition/src/IgnitionServiceProvider.php:        $this->app->singleton('flare.logger', function ($app) {
+./vendor/facade/ignition/src/IgnitionServiceProvider.php:        $this->app->singleton(LogRecorder::class);
+./vendor/facade/ignition/src/IgnitionServiceProvider.php:        $this->app->singleton(DumpRecorder::class);
+./vendor/facade/ignition/src/IgnitionServiceProvider.php:        $this->app->singleton(QueryRecorder::class);
+./bootstrap/app.php:$app->singleton(
+./bootstrap/app.php:$app->singleton(
+./bootstrap/app.php:$app->singleton(
