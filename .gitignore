@@ -11,8 +11,10 @@ cache/template/*
  
 /node_modules
 /vendor
+/docs
 .svn/
-
+.gitee/
+.idea/
 
 
 
